@@ -38,21 +38,28 @@ https://github.com/microsoft/python-sample-vscode-flask-tutorial
 Install Python
 Install pip  
 install virtual environment
-   #### For Windows
-   python -m venv env
 
-For Development in VS Code, open the Command Palette (View > Command Palette or (Ctrl+Shift+P)). Then select the Python: Select Interpreter command:
+#### For Windows
+##### To create virtual environment
+python -m venv env
 
-Activate virtual enviroment by:
-use Terminal: Create New Integrated Terminal 
 
-or 
-
-running 'env\scripts\activate'
 
 #### to run app
+Activate virtual enviroment by:
+
+'env\scripts\activate'
+
 When in the virtual virtual enviroment
 
 python -m flask run
 
 ctrl + c to exit 
+
+#### VSCODE
+For Development in VS Code, open the Command Palette (View > Command Palette or (Ctrl+Shift+P)). Then select the Python: Select Interpreter command:
+
+Activate virtual enviroment by:
+use Terminal: Create New Integrated Terminal 
+
+Set up debugger configuration
