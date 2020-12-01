@@ -1,29 +1,15 @@
 # Python Flask Web App  
-
-
-
 ## Introduction - the project's aim  
-
-App to explore the programming language of Python and to create resources for understanding Flask. Introductory investigation in using python and Flask together with VSCODE and git.   
+App to explore the programming language of Python and to create resources for understanding Flask. Introductory investigation in using python and Flask together with VSCODE and git. Create resource web app for reference python and flask.   
 
 ## Technologies
 Project is created with:  
 
 Python  3.8.6
-Flask  
-
-
-
-### Placement for Future README Sub sections  
-Launch/ To Setup  
-Table of contents  
-Illustrations  
-Scope of functionalities  
-Examples of use  
-Other information 
+Flask   
 
 ## Project status
-The project is in the beginning.   
+The project is in the beginning. Working through creating content for python and flask section.    
 
 ## Sources
 https://code.visualstudio.com/docs/python/tutorial-flask
@@ -34,25 +20,47 @@ https://github.com/microsoft/python-sample-vscode-flask-tutorial
 
 
 
-### Dev Installation and Configuration Steps
-#### System Level  
+## Scope of functionalities
+*web ui based app for interactive with python and flask knowledge
+*deploy with Docker ()
+*documented with github  
+*build through github actions
+*explore python code and libraries
+  
+## Other information
+### todo
+Document Setting up VSCODE Project debugger configuration for python  
+Creating code snippet documentation  
+Create dockerfile  
+### Placement for Future README Sub sections  
+Table of contents  
+Illustrations  
+Examples of use  
+
+
+
+
+
+### Dev Setup and Launch
+#### Setup
+##### System Level  
 Install Python  
 Install pip  
 install virtual environment  
-#### Presentation Level      
+##### Presentation Level      
 Create Project App root folder  
 Create virutal enviromenet   
     python -m venv <env>  
-#### Application Level  
+##### Application Level  
 Set Up Editor (VSCODE)  
 Add Code  
 -Python  
 -Flask  
---Templates folder 
+--Templates folder   
 --Static Content folder  
 
 
-### For Windows Launch
+#### For Windows Launch
 ##### To create virtual environment
 python -m venv env
 
@@ -84,4 +92,3 @@ To quit session
 
 
 
-Set up debugger configuration
