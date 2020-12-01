@@ -34,13 +34,16 @@ https://github.com/microsoft/python-sample-vscode-flask-tutorial
 
 
 
-### Dev Installation Steps
+### Dev Installation and Configuration Steps
+#### System Level  
 Install Python  
 Install pip  
 install virtual environment  
+#### Presentation Level      
 Create Project App root folder  
 Create virutal enviromenet   
     python -m venv <env>  
+#### Application Level  
 Set Up Editor (VSCODE)  
 Add Code  
 -Python  
@@ -49,26 +52,25 @@ Add Code
 --Static Content folder  
 
 
-#### For Windows
+### For Windows Launch
 ##### To create virtual environment
 python -m venv env
 
-
-
-#### to run app
+##### Running app option
 There are bascially two ways to start a flask app. Within the code using app.run() or through the flask cmd line lagnauge `flask run`  
 Depending on your intentions, you would want use the best approche when you ask yourself, "should I use app.run() or flask run?"  
 
 But before running the flask app, make scure the virtual enviroment is running. You can do it manuely or by seting up the python interperter. To manuely activate virtual enviroment by typing in the command line:
   
 'env\scripts\activate'  
-#### Selecting Python Interperter in VSCODE
+  
+##### Selecting Python Interperter in VSCODE
 For Development in VS Code, open the Command Palette (View > Command Palette or (Ctrl+Shift+P)). Then select the Python: Select Interpreter command:
 
 Activate virtual enviroment by:
 use Terminal: Create New Integrated Terminal     
 
-#### Running by Command Line 
+##### Running by Command Line 
 When in the virtual virtual enviroment
 
 python -m flask run
