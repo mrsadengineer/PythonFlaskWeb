@@ -1,6 +1,3 @@
-print("Python and Flask Reference Web App ")
-print("put on your seatbelts")
-print("#############################################################")
 from flask import Flask
 from datetime import datetime
 from flask import render_template
@@ -17,17 +14,13 @@ def about():
 def contact():
     return render_template("contact.html")
 
-#@app.route("/pythonRef/")
-#def now():
-#    return render_template("now.html")
-
-@app.route("/pythonfRef")
+@app.route("/python/")
 def pythonfRef():
-    return render_template("now.html")
+    return render_template("learnpython.html")
 
-@app.route("/flaskRef/")
+@app.route("/flask/")
 def flaskRef():
-    return render_template("now.html")
+    return render_template("learnflask.html")
 
 @app.route("/api/")
 def api():
@@ -38,15 +31,26 @@ def home():
     return render_template("home.html")
     
 
+print("#######Quick Links for Testing")
 
 print("http://127.0.0.1:5000/")
+print("http://127.0.0.1:5000/home")
 print("http://127.0.0.1:5000/about")
 print("http://127.0.0.1:5000/contact")
+print("http://127.0.0.1:5000/now")
+print("http://127.0.0.1:5000/api")
+print("http://127.0.0.1:5000/python")
+print("http://127.0.0.1:5000/flask")
+
 
 
 print("#######################################")
 
 def main():
+    print("Python and Flask Reference Web App ")
+    print("put on your seatbelts")
+  
+    print("#############################################################")
     app.run()
 
 if __name__ == "__main__":

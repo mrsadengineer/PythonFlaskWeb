@@ -20,30 +20,17 @@ https://github.com/microsoft/python-sample-vscode-flask-tutorial
 
 
 
-## Scope of functionalities
-*web ui based app for interactive with python and flask knowledge
-*deploy with Docker ()
-*documented with github  
-*build through github actions
-*explore python code and libraries
-  
-## Other information
-### todo
-Document Setting up VSCODE Project debugger configuration for python  
-Creating code snippet documentation  
-Create dockerfile  
-### Placement for Future README Sub sections  
-Table of contents  
-Illustrations  
-Examples of use  
-
-
-
+## Scope of functionalities (on Progress)
+*web ui based app for in python and flask (in progress)  
+*documented with github  (in progress)  
+*explore python code and libraries  (in progress) 
+*deploy with Docker (hasn't start)  
+*github actions (hasn't start) 
 
 
 ### Dev Setup and Launch
 #### Setup
-##### System Level  
+##### Session System Level  
 Install Python  
 Install pip  
 install virtual environment  
@@ -60,7 +47,7 @@ Add Code
 --Static Content folder  
 
 
-#### For Windows Launch
+#### For Launch in Windows
 ##### To create virtual environment
 python -m venv env
 
@@ -87,6 +74,17 @@ python -m flask run
 To quit session  
 
 `ctrl + c` to exit
+
+
+## Other information
+### todo
+Document Setting up VSCODE Project debugger configuration for python  
+Creating code snippet documentation  
+Create dockerfile  
+### Placement for Future README Sub sections  
+Table of contents  
+Illustrations  
+Examples of use  
 
 
 
