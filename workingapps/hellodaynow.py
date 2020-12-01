@@ -32,31 +32,6 @@ def hello_there(name = None):
      
 
     )
-# Replace the existing home function with the one below
-@app.route("/")
-def home():
-    return render_template("home.html")
-
-# New functions
-@app.route("/about/")
-def about():
-    return render_template("about.html")
-
-@app.route("/contact/")
-def contact():
-    return render_template("contact.html")
-
-@app.route("/now/")
-def now():
-    return render_template("now.html")
-
-@app.route("/personal/")
-def personal():
-    return render_template("now.html")
-
-@app.route("/api/")
-def api():
-    return render_template("now.html")
 
 def printoutnow():
     now = datetime.now()
@@ -65,12 +40,6 @@ def printoutnow():
     return somethingnew
 
 
-
-print("http://127.0.0.1:5000/")
-print("http://127.0.0.1:5000/about")
-print("http://127.0.0.1:5000/contact")
-
-print("#######################################")
 print("http://127.0.0.1:5000/todaystime/simple")
 print("http://127.0.0.1:5000/todaystime/sammy")
 print("http://127.0.0.1:5000/todaystime/raw")
